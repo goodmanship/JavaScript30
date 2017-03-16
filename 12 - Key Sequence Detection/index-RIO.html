@@ -11,7 +11,6 @@
   const secretCode = 'rio';
 
   function detectCode(e) {
-    console.log(hist);
     hist.push(e.key);
     if(hist.length > secretCode.length) hist.shift();
     if(hist.join('') == secretCode) alert('yea you are!');
