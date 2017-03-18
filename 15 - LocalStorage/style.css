@@ -76,3 +76,14 @@
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
     }
+
+    div.actions {
+      margin-top: 10px;
+    }
+
+    button.action {
+      padding: 5px;
+      outline: 0;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 2px;
+    }
